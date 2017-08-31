@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B71FC5BA1F4BC6D500E32ADC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B71FC5B91F4BC6D500E32ADC /* main.m */; };
+		B71FC5BD1F4BC6D500E32ADC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B71FC5BC1F4BC6D500E32ADC /* AppDelegate.m */; };
+		B71FC5C01F4BC6D500E32ADC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B71FC5BF1F4BC6D500E32ADC /* ViewController.m */; };
+		B71FC5C31F4BC6D500E32ADC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B71FC5C11F4BC6D500E32ADC /* Main.storyboard */; };
+		B71FC5C51F4BC6D500E32ADC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B71FC5C41F4BC6D500E32ADC /* Assets.xcassets */; };
+		B71FC5C81F4BC6D500E32ADC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B71FC5C61F4BC6D500E32ADC /* LaunchScreen.storyboard */; };
+		B71FC5D31F4BC6D500E32ADC /* WindKeyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B71FC5D21F4BC6D500E32ADC /* WindKeyboardTests.m */; };
+		B71FC5DE1F4BC6D500E32ADC /* WindKeyboardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B71FC5DD1F4BC6D500E32ADC /* WindKeyboardUITests.m */; };
+		B71FC5EE1F4BCCC600E32ADC /* WindyKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = B71FC5ED1F4BCCC600E32ADC /* WindyKeyBoard.m */; };
+		B71FC5F71F4BD4D300E32ADC /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = B71FC5F51F4BD4D300E32ADC /* UIView+Category.m */; };
+		B71FC5FD1F4BDA7100E32ADC /* dropdownmnue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B71FC5FA1F4BDA7100E32ADC /* dropdownmnue@2x.png */; };
+		B71FC6031F4D308900E32ADC /* TextFieldInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B71FC6021F4D308900E32ADC /* TextFieldInViewController.m */; };
+		B79011051F4EBD4A00FC68E8 /* SubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B79011041F4EBD4A00FC68E8 /* SubViewController.m */; };
+		B79011081F4EC19900FC68E8 /* TableController.m in Sources */ = {isa = PBXBuildFile; fileRef = B79011071F4EC19900FC68E8 /* TableController.m */; };
+		B790110B1F4EC69400FC68E8 /* TableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B790110A1F4EC69400FC68E8 /* TableCell.m */; };
+		B790110F1F4ECFF200FC68E8 /* SubView.m in Sources */ = {isa = PBXBuildFile; fileRef = B790110E1F4ECFF200FC68E8 /* SubView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B71FC5CF1F4BC6D500E32ADC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B71FC5AD1F4BC6D500E32ADC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B71FC5B41F4BC6D500E32ADC;
+			remoteInfo = WindKeyboard;
+		};
+		B71FC5DA1F4BC6D500E32ADC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B71FC5AD1F4BC6D500E32ADC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B71FC5B41F4BC6D500E32ADC;
+			remoteInfo = WindKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B71FC5B51F4BC6D500E32ADC /* WindKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WindKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B71FC5B91F4BC6D500E32ADC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B71FC5BB1F4BC6D500E32ADC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B71FC5BC1F4BC6D500E32ADC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B71FC5BE1F4BC6D500E32ADC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B71FC5BF1F4BC6D500E32ADC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B71FC5C21F4BC6D500E32ADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B71FC5C41F4BC6D500E32ADC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B71FC5C71F4BC6D500E32ADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B71FC5C91F4BC6D500E32ADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B71FC5CE1F4BC6D500E32ADC /* WindKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WindKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B71FC5D21F4BC6D500E32ADC /* WindKeyboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WindKeyboardTests.m; sourceTree = "<group>"; };
+		B71FC5D41F4BC6D500E32ADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B71FC5D91F4BC6D500E32ADC /* WindKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WindKeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B71FC5DD1F4BC6D500E32ADC /* WindKeyboardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WindKeyboardUITests.m; sourceTree = "<group>"; };
+		B71FC5DF1F4BC6D500E32ADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B71FC5EC1F4BCCC600E32ADC /* WindyKeyBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindyKeyBoard.h; sourceTree = "<group>"; };
+		B71FC5ED1F4BCCC600E32ADC /* WindyKeyBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindyKeyBoard.m; sourceTree = "<group>"; };
+		B71FC5F51F4BD4D300E32ADC /* UIView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
+		B71FC5F61F4BD4D300E32ADC /* UIView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
+		B71FC5F81F4BD5A000E32ADC /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B71FC5FA1F4BDA7100E32ADC /* dropdownmnue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dropdownmnue@2x.png"; sourceTree = "<group>"; };
+		B71FC6011F4D308900E32ADC /* TextFieldInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldInViewController.h; sourceTree = "<group>"; };
+		B71FC6021F4D308900E32ADC /* TextFieldInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldInViewController.m; sourceTree = "<group>"; };
+		B79011031F4EBD4A00FC68E8 /* SubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubViewController.h; sourceTree = "<group>"; };
+		B79011041F4EBD4A00FC68E8 /* SubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubViewController.m; sourceTree = "<group>"; };
+		B79011061F4EC19900FC68E8 /* TableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableController.h; sourceTree = "<group>"; };
+		B79011071F4EC19900FC68E8 /* TableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableController.m; sourceTree = "<group>"; };
+		B79011091F4EC69400FC68E8 /* TableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableCell.h; sourceTree = "<group>"; };
+		B790110A1F4EC69400FC68E8 /* TableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableCell.m; sourceTree = "<group>"; };
+		B790110D1F4ECFF200FC68E8 /* SubView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubView.h; sourceTree = "<group>"; };
+		B790110E1F4ECFF200FC68E8 /* SubView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B71FC5B21F4BC6D500E32ADC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B71FC5CB1F4BC6D500E32ADC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B71FC5D61F4BC6D500E32ADC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B71FC5AC1F4BC6D500E32ADC = {
+			isa = PBXGroup;
+			children = (
+				B71FC5B71F4BC6D500E32ADC /* WindKeyboard */,
+				B71FC5D11F4BC6D500E32ADC /* WindKeyboardTests */,
+				B71FC5DC1F4BC6D500E32ADC /* WindKeyboardUITests */,
+				B71FC5B61F4BC6D500E32ADC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B71FC5B61F4BC6D500E32ADC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B71FC5B51F4BC6D500E32ADC /* WindKeyboard.app */,
+				B71FC5CE1F4BC6D500E32ADC /* WindKeyboardTests.xctest */,
+				B71FC5D91F4BC6D500E32ADC /* WindKeyboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B71FC5B71F4BC6D500E32ADC /* WindKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				B71FC5F91F4BDA4A00E32ADC /* images */,
+				B71FC5EB1F4BCC9B00E32ADC /* keyBoard */,
+				B71FC5BB1F4BC6D500E32ADC /* AppDelegate.h */,
+				B71FC5BC1F4BC6D500E32ADC /* AppDelegate.m */,
+				B71FC5BE1F4BC6D500E32ADC /* ViewController.h */,
+				B71FC5BF1F4BC6D500E32ADC /* ViewController.m */,
+				B790110C1F4ECF4300FC68E8 /* View */,
+				B71FC6001F4D305800E32ADC /* controller */,
+				B71FC5C11F4BC6D500E32ADC /* Main.storyboard */,
+				B71FC5C41F4BC6D500E32ADC /* Assets.xcassets */,
+				B71FC5C61F4BC6D500E32ADC /* LaunchScreen.storyboard */,
+				B71FC5C91F4BC6D500E32ADC /* Info.plist */,
+				B71FC5B81F4BC6D500E32ADC /* Supporting Files */,
+				B71FC5F81F4BD5A000E32ADC /* PrefixHeader.pch */,
+			);
+			path = WindKeyboard;
+			sourceTree = "<group>";
+		};
+		B71FC5B81F4BC6D500E32ADC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B71FC5B91F4BC6D500E32ADC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B71FC5D11F4BC6D500E32ADC /* WindKeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				B71FC5D21F4BC6D500E32ADC /* WindKeyboardTests.m */,
+				B71FC5D41F4BC6D500E32ADC /* Info.plist */,
+			);
+			path = WindKeyboardTests;
+			sourceTree = "<group>";
+		};
+		B71FC5DC1F4BC6D500E32ADC /* WindKeyboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B71FC5DD1F4BC6D500E32ADC /* WindKeyboardUITests.m */,
+				B71FC5DF1F4BC6D500E32ADC /* Info.plist */,
+			);
+			path = WindKeyboardUITests;
+			sourceTree = "<group>";
+		};
+		B71FC5EB1F4BCC9B00E32ADC /* keyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				B71FC5F61F4BD4D300E32ADC /* UIView+Category.h */,
+				B71FC5F51F4BD4D300E32ADC /* UIView+Category.m */,
+				B71FC5EC1F4BCCC600E32ADC /* WindyKeyBoard.h */,
+				B71FC5ED1F4BCCC600E32ADC /* WindyKeyBoard.m */,
+			);
+			name = keyBoard;
+			sourceTree = "<group>";
+		};
+		B71FC5F91F4BDA4A00E32ADC /* images */ = {
+			isa = PBXGroup;
+			children = (
+				B71FC5FA1F4BDA7100E32ADC /* dropdownmnue@2x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		B71FC6001F4D305800E32ADC /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				B71FC6011F4D308900E32ADC /* TextFieldInViewController.h */,
+				B71FC6021F4D308900E32ADC /* TextFieldInViewController.m */,
+				B79011031F4EBD4A00FC68E8 /* SubViewController.h */,
+				B79011041F4EBD4A00FC68E8 /* SubViewController.m */,
+				B79011061F4EC19900FC68E8 /* TableController.h */,
+				B79011071F4EC19900FC68E8 /* TableController.m */,
+				B79011091F4EC69400FC68E8 /* TableCell.h */,
+				B790110A1F4EC69400FC68E8 /* TableCell.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		B790110C1F4ECF4300FC68E8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B790110D1F4ECFF200FC68E8 /* SubView.h */,
+				B790110E1F4ECFF200FC68E8 /* SubView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B71FC5B41F4BC6D500E32ADC /* WindKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B71FC5E21F4BC6D500E32ADC /* Build configuration list for PBXNativeTarget "WindKeyboard" */;
+			buildPhases = (
+				B71FC5B11F4BC6D500E32ADC /* Sources */,
+				B71FC5B21F4BC6D500E32ADC /* Frameworks */,
+				B71FC5B31F4BC6D500E32ADC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WindKeyboard;
+			productName = WindKeyboard;
+			productReference = B71FC5B51F4BC6D500E32ADC /* WindKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B71FC5CD1F4BC6D500E32ADC /* WindKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B71FC5E51F4BC6D500E32ADC /* Build configuration list for PBXNativeTarget "WindKeyboardTests" */;
+			buildPhases = (
+				B71FC5CA1F4BC6D500E32ADC /* Sources */,
+				B71FC5CB1F4BC6D500E32ADC /* Frameworks */,
+				B71FC5CC1F4BC6D500E32ADC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B71FC5D01F4BC6D500E32ADC /* PBXTargetDependency */,
+			);
+			name = WindKeyboardTests;
+			productName = WindKeyboardTests;
+			productReference = B71FC5CE1F4BC6D500E32ADC /* WindKeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B71FC5D81F4BC6D500E32ADC /* WindKeyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B71FC5E81F4BC6D500E32ADC /* Build configuration list for PBXNativeTarget "WindKeyboardUITests" */;
+			buildPhases = (
+				B71FC5D51F4BC6D500E32ADC /* Sources */,
+				B71FC5D61F4BC6D500E32ADC /* Frameworks */,
+				B71FC5D71F4BC6D500E32ADC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B71FC5DB1F4BC6D500E32ADC /* PBXTargetDependency */,
+			);
+			name = WindKeyboardUITests;
+			productName = WindKeyboardUITests;
+			productReference = B71FC5D91F4BC6D500E32ADC /* WindKeyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B71FC5AD1F4BC6D500E32ADC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "东边的风";
+				TargetAttributes = {
+					B71FC5B41F4BC6D500E32ADC = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = FQK6BE95TP;
+						ProvisioningStyle = Automatic;
+					};
+					B71FC5CD1F4BC6D500E32ADC = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = FQK6BE95TP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B71FC5B41F4BC6D500E32ADC;
+					};
+					B71FC5D81F4BC6D500E32ADC = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = FQK6BE95TP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B71FC5B41F4BC6D500E32ADC;
+					};
+				};
+			};
+			buildConfigurationList = B71FC5B01F4BC6D500E32ADC /* Build configuration list for PBXProject "WindKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B71FC5AC1F4BC6D500E32ADC;
+			productRefGroup = B71FC5B61F4BC6D500E32ADC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B71FC5B41F4BC6D500E32ADC /* WindKeyboard */,
+				B71FC5CD1F4BC6D500E32ADC /* WindKeyboardTests */,
+				B71FC5D81F4BC6D500E32ADC /* WindKeyboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B71FC5B31F4BC6D500E32ADC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B71FC5C81F4BC6D500E32ADC /* LaunchScreen.storyboard in Resources */,
+				B71FC5C51F4BC6D500E32ADC /* Assets.xcassets in Resources */,
+				B71FC5FD1F4BDA7100E32ADC /* dropdownmnue@2x.png in Resources */,
+				B71FC5C31F4BC6D500E32ADC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B71FC5CC1F4BC6D500E32ADC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B71FC5D71F4BC6D500E32ADC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B71FC5B11F4BC6D500E32ADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B71FC6031F4D308900E32ADC /* TextFieldInViewController.m in Sources */,
+				B71FC5F71F4BD4D300E32ADC /* UIView+Category.m in Sources */,
+				B79011081F4EC19900FC68E8 /* TableController.m in Sources */,
+				B71FC5C01F4BC6D500E32ADC /* ViewController.m in Sources */,
+				B71FC5BD1F4BC6D500E32ADC /* AppDelegate.m in Sources */,
+				B71FC5EE1F4BCCC600E32ADC /* WindyKeyBoard.m in Sources */,
+				B71FC5BA1F4BC6D500E32ADC /* main.m in Sources */,
+				B790110B1F4EC69400FC68E8 /* TableCell.m in Sources */,
+				B79011051F4EBD4A00FC68E8 /* SubViewController.m in Sources */,
+				B790110F1F4ECFF200FC68E8 /* SubView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B71FC5CA1F4BC6D500E32ADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B71FC5D31F4BC6D500E32ADC /* WindKeyboardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B71FC5D51F4BC6D500E32ADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B71FC5DE1F4BC6D500E32ADC /* WindKeyboardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B71FC5D01F4BC6D500E32ADC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B71FC5B41F4BC6D500E32ADC /* WindKeyboard */;
+			targetProxy = B71FC5CF1F4BC6D500E32ADC /* PBXContainerItemProxy */;
+		};
+		B71FC5DB1F4BC6D500E32ADC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B71FC5B41F4BC6D500E32ADC /* WindKeyboard */;
+			targetProxy = B71FC5DA1F4BC6D500E32ADC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B71FC5C11F4BC6D500E32ADC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B71FC5C21F4BC6D500E32ADC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B71FC5C61F4BC6D500E32ADC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B71FC5C71F4BC6D500E32ADC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B71FC5E01F4BC6D500E32ADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B71FC5E11F4BC6D500E32ADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B71FC5E31F4BC6D500E32ADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FQK6BE95TP;
+				GCC_PREFIX_HEADER = WindKeyboard/PrefixHeader.pch;
+				INFOPLIST_FILE = WindKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dongbiandefeng.WindKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B71FC5E41F4BC6D500E32ADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FQK6BE95TP;
+				GCC_PREFIX_HEADER = WindKeyboard/PrefixHeader.pch;
+				INFOPLIST_FILE = WindKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dongbiandefeng.WindKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B71FC5E61F4BC6D500E32ADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FQK6BE95TP;
+				INFOPLIST_FILE = WindKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dongbiandefeng.WindKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WindKeyboard.app/WindKeyboard";
+			};
+			name = Debug;
+		};
+		B71FC5E71F4BC6D500E32ADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FQK6BE95TP;
+				INFOPLIST_FILE = WindKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dongbiandefeng.WindKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WindKeyboard.app/WindKeyboard";
+			};
+			name = Release;
+		};
+		B71FC5E91F4BC6D500E32ADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = FQK6BE95TP;
+				INFOPLIST_FILE = WindKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dongbiandefeng.WindKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WindKeyboard;
+			};
+			name = Debug;
+		};
+		B71FC5EA1F4BC6D500E32ADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = FQK6BE95TP;
+				INFOPLIST_FILE = WindKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dongbiandefeng.WindKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WindKeyboard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B71FC5B01F4BC6D500E32ADC /* Build configuration list for PBXProject "WindKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B71FC5E01F4BC6D500E32ADC /* Debug */,
+				B71FC5E11F4BC6D500E32ADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B71FC5E21F4BC6D500E32ADC /* Build configuration list for PBXNativeTarget "WindKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B71FC5E31F4BC6D500E32ADC /* Debug */,
+				B71FC5E41F4BC6D500E32ADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B71FC5E51F4BC6D500E32ADC /* Build configuration list for PBXNativeTarget "WindKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B71FC5E61F4BC6D500E32ADC /* Debug */,
+				B71FC5E71F4BC6D500E32ADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B71FC5E81F4BC6D500E32ADC /* Build configuration list for PBXNativeTarget "WindKeyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B71FC5E91F4BC6D500E32ADC /* Debug */,
+				B71FC5EA1F4BC6D500E32ADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B71FC5AD1F4BC6D500E32ADC /* Project object */;
+}
